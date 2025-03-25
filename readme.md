@@ -37,7 +37,10 @@ python manage.py runserver
 
 📌 API Endpoints & Testing
 Method	Endpoint	Description
+
 POST	/api/tasks/create/	Create a new task
+
 POST	/api/tasks/assign/<task_id>/	Assign task to users
+
 GET	/api/tasks/user/<user_id>/	Get tasks for a specific user
 
